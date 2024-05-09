@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, sans-serif;
+    background-color:#0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #main-box{
+    background-color:aliceblue;
+    width: min(90%, 400px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   height: 80%;
+  
+    /* position: relative; */
+  }
+  #Title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+  #currency-form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    padding: 20px;
+    margin:10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 7, 99, 0.863);
+    /* position: relative; */
+    height: 80%;
+    
+  }
+  #lablein{
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+  }
+  #amount{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: solid 1px rgb(12, 85, 150);
+   
+  }
+  .select-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 20%;
+    overflow: hidden;
+    /* background-color: yellow; */
+  }
+  #icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+   bottom: 10px;
+  }
+  #selectfrom, #selectto{
+    font-size: 1.5rem;
+    /* padding: 10px; */
+    /* background-color: rgb(15, 97, 169); */
+    border-radius: 15px;
+    border: solid 1px rgb(12, 85, 150);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 40%;
+    height: 70%;
+  }
+  #from, #to{
+    border: none;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+
+  }
+  #submit{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: rgb(15, 97, 169);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  #result{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: solid 1px rgb(12, 85, 150);
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  #fromimg, #toimg{
+    width: 50%;
+    height: auto;
+    
+  }

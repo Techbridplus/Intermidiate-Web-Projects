@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <main id="main-box">
+        <h1 id="Title">Currency Converter</h1>
+        <form id="currency-form">
+            <label for="amount" id="lablein">Enter Amount</label><br>
+            <input type="number" id="amount"  min="0" ><br>
+            <div class="select-div">
+                <div id="selectfrom">
+                    <img  id="fromimg" src="https://flagsapi.com/US/flat/64.png">
+                    <select id="from" name="from" >
+                    
+                    </select>
+                </div>
+                <i class="fa-solid fa-right-left" id="icon"></i>
+                <div id="selectto">
+                    <img src="https://flagsapi.com/IN/flat/64.png" id="toimg">
+                    <select id="to" name="to" >
+                       
+                    </select>
+
+                </div>
+            </div>
+            <br>
+            <button type="submit" id="submit">Convert</button><br>
+            <div id="result"> 1 USD = 80 Rupees</div>
+        </form>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
